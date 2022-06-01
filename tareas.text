@@ -1,0 +1,9 @@
+// Uitlizar Todas las etiquetas H. (H1, H2, etc) (en un html)
+// Mostrar todos los inputs disponibles en html (en un archivo)
+// obtengan el selector css del input de password del login de facebook.
+// crear una pagina que contenga 2 filas, 
+   la primera fila debe contener 3 columnas y 
+   la segunda debe contener 6 columnas
+
+   las columnas de la primera fila deben tener un borde azul, y un fondo rojo
+   las columnas de la segunda fila deben tener un borde rojo y un fondo amarillo
