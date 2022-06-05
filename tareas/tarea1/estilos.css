@@ -1,0 +1,210 @@
+*{
+    margin: 0px;
+}
+body{
+    background-color: rgb(210, 212, 228);
+}
+h1{
+    color: blue;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: antiquewhite;
+    padding: 10px;
+    border: 5px solid black;
+    width: 300px;
+    text-align: center;
+}
+h2{
+    color: rgb(228, 58, 67);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: rgb(108, 163, 247);
+    padding: 10px;
+    border: 5px solid black;
+    width: 300px;
+    text-align: center;
+    
+    
+    
+    
+}
+h3{ color: blueviolet;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: rgb(252, 126, 220);
+    padding: 10px;
+    border: 5px solid black;
+    width: 300px;
+    text-align: center;
+    
+    
+}
+h4{ color: rgb(45, 153, 23);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: antiquewhite;
+    padding: 10px;
+    border: 5px solid black;
+    width: 300px;
+    text-align: center;
+
+}
+.header{
+    width: 100px;
+height: 5px;
+background-color: rgb(43, 168, 226);
+margin: 5px;
+float: center;
+
+}
+.sidebar{
+    width: 60px;
+height: 100px;
+background-color: rgb(153, 163, 17);
+margin: 5px;
+float: left;
+
+}
+
+.box{
+width: 30px;
+height: 30px;
+background-color: blueviolet;
+margin: 5px;
+float: left;
+
+}
+p{
+    margin: 10px;
+    font-size: 15px;
+}
+.text-justify{
+    text-align: justify;
+
+} 
+.bold{
+    color: rgb(230, 4, 4);
+    font-weight: bold;
+}
+
+h5{ color: rgb(226, 43, 180);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: rgb(111, 247, 93);
+    padding: 10px;
+    border: 5px solid black;
+    width: 300px;
+    text-align: center;
+    
+}
+h6{ color: rgb(20, 17, 16);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: rgb(210, 247, 45);
+    padding: 10px;
+    border: 5px solid black;
+    width: 300px;
+    text-align: center;
+}
+*{
+    box-sizing: border-box;
+}
+.flex-container{
+    display: flex;
+    height: 600px;
+    width: 100%;
+    flex-direction: row;
+    background-color: blueviolet;
+    padding: 5px;
+    border: 2px solid black;
+}
+.flex-container div{
+    background-color: rgb(240, 157, 236);
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+    text-align: center;
+    line-height: 100%;
+    font-size: 19px;
+    border: 2px solid black;
+    text-align: justify;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bold{
+    color: rgb(146, 10, 10);
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    width: 100%;
+}
+.Container{
+    outline: 10px solid rgb(64, 68, 64);
+    height: 100vh;
+    width: 100%;
+    margin: 5px;
+    justify-content: center;
+    padding: 5px;
+    
+}
+
+
+.rows{
+    outline: 5px solid rgb(35, 3, 41);
+    height: 40%;
+    width: 100%;
+    background-color: blueviolet;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+.bgAquamarine {
+    background-color: aquamarine;
+}
+.redcolumn{
+    outline: 4px solid rgb(28, 13, 114);
+    height: 100%;
+    width: 26%;
+    background-color: rgb(226, 43, 43);
+    display: flex;
+    flex-direction: column;
+}
+.yellowcolumn{
+    outline: 4px solid rgb(156, 6, 6);
+    width: 15%;
+    background-color: rgb(243, 240, 82);
+    display: flex;
+    
+}
+
+
+
+
+
+
+/* 
+.container div{
+    height: 50%;
+    width: 100%;
+
+
+}
+.rojo{
+    background-color: rgb(129, 18, 18);
+    width: 330px;
+   /* height: 300px;*/
+   /* text-align: center;
+}
+.azul{
+    background-color: rgb(29, 10, 83);
+    width: 330px;
+    /* height: 300px;*/
+    /* text-align: center;
+}
+.amarillo{
+    background-color: rgb(85, 248, 36);
+    width: 330px;
+    /* height: 300px;*/
+    /* text-align: center;
+} */

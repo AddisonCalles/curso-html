@@ -1,8 +1,19 @@
 .persona{
     width: 100px;
-    height: 100px;
+    height: 100px; 
+}
+
+.bgskyblue{
     background: skyblue;
 }
+.bgred{
+    background: red;
+}
+.bggreen{
+    background: rgb(11, 142, 54);
+}
+
+
 .input-container{
     display: flex;
     flex-direction: column;
@@ -15,22 +26,10 @@ img{
     width: 94%;
     border: 4px solid gray;
 }
-.rows{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    margin-top: 12px;
-    justify-content: space-evenly;
-}
 .text-principal{
     display: contents;
     font-size: 19px;
     font-weight: bold;
-}
-.container{
-    width: 100%;
-    display: flex;
-    justify-content: center;
 }
 .section{
     width: 80%;

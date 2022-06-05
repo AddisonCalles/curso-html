@@ -1,0 +1,4 @@
+#Configurar evento load desde javascript
+- Al iniciar un archivo javascript mostrar un alert 
+- Al cargar la pagina mostrar un alert.
+- Configurar el evento click de un elemento en el dom
