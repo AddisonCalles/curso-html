@@ -38,24 +38,20 @@ function addRegistro(tbody, id, nombre, edad, nacionalidad){
  */
 async function getUsers(nombre){
    let url = `http://localhost:3000/users`;
-   if(nombre) url = url + `/${nombre}`;
+   if(nombre) url = url + `/${nombre}`; //Agregar parametro de busqueda si el valor no es undefined
    const response = await fetch(url);
    const users = response.json();
    return users;
 } 
 
 async function buscar(){
-    const inputName = document.querySelector('#inputname');
+    const inputName = document.querySelector('#inputname'); // Obtener el input inputname
     const tbody = document.querySelector('.table-users tbody');
-    //const users = document.querySelectorAll('.table-users tbody tr');
-    tbody.innerHTML = "";
+    tbody.innerHTML = ""; // Limpiar las filas actuales
     const users = await getUsers(inputName.value);
     //tbody, id, nombre, edad, nacionalidad
-    for (const user of users) {
+    for (const user of users) { // Recorrer el array con los usuarios encontrados
         addRegistro(tbody, user.id, user.nombre, user.edad, user.nacionalidad);
         console.log(user);
-     
     }
-
-    
 }
